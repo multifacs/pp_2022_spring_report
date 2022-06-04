@@ -101,12 +101,11 @@
      
 \par Геометрический смысл интеграла заключается в том, что если $f(x)\ge 0$ на отрезке $[a,b]$, то интеграл $\int_{a}^{b}f(x)\cdot dx$ численно равен площади фигуры, ограниченной графиком функции $y=f(x)$, отрезком оси абсцисс, прямой $x = a$ и прямой $x = b$. Таким образом, вычисление интеграла равносильно вычислению площади криволинейной трапеции.
 
-\begin{align*}
+\begin{figure}[hp]
+    \centering
     \includegraphics{graph1}
-\end{align*}
-\begin{center}
     \caption{Геометрический смысл интеграла}
-\end{center}
+\end{figure}
 
 \par Задача численного интегрирования состоит в замене исходной подынтегральной функции некоторой аппроксимирующей функцией (обычно полиномом).
 \par Численное интегрирование применяется, когда:
@@ -124,12 +123,13 @@
 \begin{align*}
     \int_{a}^{b}f(x)\cdot dx \approx \sum_{j=1}^{N} \frac{f(x_j)+f(x_{j-1})}{2}h=h\left[ \frac{1}{2}(f_1+f_N)+f_2+...+f_{N-1} \right]
 \end{align*}
-\begin{align*}
+
+\begin{figure}[hp]
+    \centering
     \includegraphics{graph2}
-\end{align*}
-\begin{center}
     \caption{Интегрирование методом методом трапеций}
-\end{center}
+\end{figure}
+
 \newpage
 
 % Постановка задачи
